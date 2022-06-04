@@ -38,7 +38,7 @@ app.get("/v1", (req, resp) => {
         console.log(`name: ${name}, url: ${url}, image: ${image}`);
         thumbnails.push({
           name: name,
-          url: "http://localhost:8000/v1" + url.split("/wiki")[1],
+          url: "https://demon-slayer-api-ez/v1" + url.split("/wiki")[1],
           image: image,
         });
       });
